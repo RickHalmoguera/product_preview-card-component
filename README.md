@@ -1,6 +1,6 @@
 # Frontend Mentor - Product preview card component solution
 
-Yeyyy my first Frontend Mentor challenge is completed!!!!!
+Yeyyy!!!! My first Frontend Mentor challenge is completed!!!!!
 This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
