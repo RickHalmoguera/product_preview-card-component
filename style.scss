@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+$bg-color-main: hsl(30, 38%, 92%);
+$bg-color-sec: hsl(0, 0%, 100%);
+$bg-color-btn: hsl(158, 36%, 37%);
+
+$fs-main: 14px;
+$ff-main:'Montserrat', sans-serif;
+$ff-sec: 'Fraunces', serif;
+$fc-main: hsl(228, 12%, 48%);
+$fc-sec: hsl(212, 21%, 14%);
+$fc-price: hsl(158, 36%, 37%);
+$fc-color-btn: hsl(0, 0%, 100%);
+
+$small: 664px;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color:$bg-color-main ;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: $fs-main;
+}
+
+.card-container{
+    background-color: $bg-color-sec;
+    max-width: 343px ;
+    border-radius: 10px;
+
+    @media screen and (min-width:$small) {
+        display: flex;
+        max-width: 600px;
+        height: 450px;  
+    }
+    .picture-container{
+        width: 100%;
+        height: 30%;
+
+        @media screen and (min-width:$small) {
+            height: 100%;
+        }
+    }
+
+    .main-img{
+        width: 100%;
+        height: 240px;
+        object-fit: cover;
+        border-radius: 10px 10px 0 0;
+
+        @media screen and (min-width:$small) {
+            height: 100%;
+            border-radius: 10px 0  0 10px;
+        }
+    
+    }
+
+
+}
+
+.card-description-container{
+    padding: 1.5em 2em;
+    color: $fc-main;
+    font-family: $ff-main;
+    min-height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-between;
+    gap: 1em;
+
+    h1{
+        font-family: $ff-sec;
+        font-size: 2rem;
+        color: $fc-sec;
+        font-weight: 700;
+    }
+    h2{
+        font-size: .9rem;
+        text-transform: uppercase;
+        font-weight: 500;
+        letter-spacing: 3px;
+    }
+
+    p{
+        line-height: 1.5;
+    }
+}
+
+.price-container{
+
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+
+    .price-actual{
+        font-family: $ff-sec;
+        color: $fc-price;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .price-real{
+        text-decoration: line-through;
+    }
+}
+
+.btn-main{
+    background-color: $bg-color-btn;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    font-family: $ff-main;
+    font-weight: 700;
+    color: white;
+    width: 100%;
+    padding: 1em 0;
+    border-radius: 10px;
+
+    .shopping-cart-img{
+        width: 1rem;
+    }
+}
