@@ -59,7 +59,7 @@ To see how you can add code snippets, see below:
 
 ### Useful resources
 
-- [HTML <picture> Tag](https://www.w3schools.com/tags/tag_picture.asp) - This helped my to discover the <picture> tag.
+- [HTML picture Tag](https://www.w3schools.com/tags/tag_picture.asp) - This helped my to discover the picture tag.
 - [Flexbox playground](https://codepen.io/enxaneta/full/adLPwv/) - Amazing site to learn and try everything about Flexbox Layouts.
 
 ## Author
