@@ -44,7 +44,7 @@ Users should be able to:
 
 ### What I learned
 
-Although it is a simple project, it helped me to learn the use of <picture>, which before I only used <img>. <picture> allows you to display different images in a responsive layout, without the need to use Media Queries.
+Although it is a simple project, it helped me to learn the use of picture, which before I only used img. picture allows you to display different images in a responsive layout, without the need to use Media Queries.
 
 To see how you can add code snippets, see below:
 
