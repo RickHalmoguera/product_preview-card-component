@@ -44,23 +44,23 @@ Users should be able to:
 
 ### What I learned
 
-Although it is a simple project, it helped me to learn the use of picture, which before I only used img. picture allows you to display different images in a responsive layout, without the need of Media Queries.
+Although it is a simple project, it helped me to learn the use of ForEach , which I used to change the states of rating buttons
 
 To see how you can add code snippets, see below:
 
-```html
-<picture>
-    <source media="(min-width:376px )" srcset="./images/image-product-desktop.jpg">
-    <img class="main-img" src="./images/image-product-mobile.jpg" alt="perfume">
-</picture>
+```Js
+const checkClick = (ratingClickedId)=>{
+    const circles= document.querySelectorAll(".rating-btn")
+    circles.forEach(circle => {
+        circle.style.backgroundColor ="hsl(213, 19%, 18%)"
+        circle.style.color ="hsl(217, 12%, 63%)"
+    });
 ```
-
-### Continued development
 
 ### Useful resources
 
-- [HTML picture Tag](https://www.w3schools.com/tags/tag_picture.asp) - This helped my to discover the picture tag.
-- [Flexbox playground](https://codepen.io/enxaneta/full/adLPwv/) - Amazing site to learn and try everything about Flexbox Layouts.
+- [JavaScript Array forEach](https://www.w3schools.com/jsref/jsref_foreach.asp) - This helped me to implement the code for the ratings states
+- [JavaScript Switch Statement](https://www.w3schools.com/js/js_switch.asp) - How to use this statement
 
 ## Author
 
