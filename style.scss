@@ -3,6 +3,7 @@
 $bg-color-main: hsl(30, 38%, 92%);
 $bg-color-sec: hsl(0, 0%, 100%);
 $bg-color-btn: hsl(158, 36%, 37%);
+$bg-color-btn-hover: hsl(160, 38%, 24%);
 
 $fs-main: 14px;
 $ff-main:'Montserrat', sans-serif;
@@ -130,5 +131,10 @@ body{
 
     .shopping-cart-img{
         width: 1rem;
+    }
+
+    &:hover{
+        cursor: pointer;
+        background-color: $bg-color-btn-hover;
     }
 }

@@ -108,4 +108,8 @@ body {
 }
 .btn-main .shopping-cart-img {
   width: 1rem;
+}
+.btn-main:hover {
+  cursor: pointer;
+  background-color: hsl(160deg, 38%, 24%);
 }/*# sourceMappingURL=style.css.map */
